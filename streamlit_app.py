@@ -43,7 +43,6 @@ if st.button("Connect to Server"):
                 })
         df=pd.DataFrame(flat_data)
         df.set_index('category',inplace=True)
-        from IPython.display import display, HTML
 
 
         # Convert link column to clickable HTML anchor tags
